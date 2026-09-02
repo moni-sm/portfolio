@@ -1,3 +1,18 @@
+// Dynamic calculation of total software engineering experience (Career Start Date: April 7, 2025)
+export const calculateExperienceYears = (startDate = new Date(2025, 3, 7)) => {
+  const now = new Date();
+  const diffMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth()) + (now.getDate() >= startDate.getDate() ? 0 : -1);
+  const years = Math.max(0, diffMonths / 12);
+  return years >= 1 ? `${years.toFixed(1)}+ yr` : `${Math.max(1, diffMonths)}+ mos`;
+};
+
+export const calculateExperienceText = (startDate = new Date(2025, 3, 7)) => {
+  const now = new Date();
+  const diffMonths = (now.getFullYear() - startDate.getFullYear()) * 12 + (now.getMonth() - startDate.getMonth()) + (now.getDate() >= startDate.getDate() ? 0 : -1);
+  const years = Math.max(0, diffMonths / 12);
+  return years >= 1 ? `${years.toFixed(1)}+ years` : `${Math.max(1, diffMonths)}+ months`;
+};
+
 export const portfolioData = {
   hero: {
     eyebrow: "⚡ Full-Stack Developer & Software Engineer",
@@ -15,7 +30,7 @@ export const portfolioData = {
     ],
     available: true,
     stats: [
-      { num: "1.6+ yr", label: "Experience" },
+      { num: calculateExperienceYears(), label: "Experience" },
       { num: "2×", label: "Spotlight Awards" },
       { num: "4+", label: "Flagship Projects" }
     ]
@@ -25,7 +40,7 @@ export const portfolioData = {
     title: "WHO AM I?",
     subtitle: "A high-performing Full-Stack Developer with rapid progression from Trainee to Associate to Junior Software Developer.",
     quote: '"',
-    bio: "Hey! I'm **Monika S M** — a Software Developer based in Bengaluru, India. In my **1.6+ years** at **Conceptia Software Technologies**, I joined as a Trainee Software Developer on **07/04/2025** for a 6-month program, but owing to exceptional performance and high commitment, I was converted to a permanent **Associate Software Engineer in just 3 months (July 2025)**, and subsequently promoted to **Junior Software Developer** in March. Along the way, I have been honored with **two Spotlight Awards** for outstanding performance and high-impact delivery.\n\nFrom architecting role-based enterprise portals and XML-to-PDF pipelines to engineering high-throughput payment orchestration engines (**SettleFlow**), multi-LLM streaming assistants (**SigmaGPT**), and AI developer hubs (**Team Compass**), I love solving complex technical problems and building scalable software.",
+    bio: `Hey! I'm **Monika S M** — a Software Developer based in Bengaluru, India. In my **${calculateExperienceText()}** at **Conceptia Software Technologies**, I joined as a Trainee Software Developer on **07/04/2025** for a 6-month program, but owing to exceptional performance and high commitment, I was converted to a permanent **Associate Software Engineer in just 3 months (July 2025)**, and subsequently promoted to **Junior Software Developer** in March. Along the way, I have been honored with **two Spotlight Awards** for outstanding performance and high-impact delivery.\n\nFrom architecting role-based enterprise portals and XML-to-PDF pipelines to engineering high-throughput payment orchestration engines (**SettleFlow**), multi-LLM streaming assistants (**SigmaGPT**), and AI developer hubs (**Team Compass**), I love solving complex technical problems and building scalable software.`,
     details: [
       { icon: "ti ti-map-pin", text: "Banashankari, Bengaluru, India" },
       { icon: "ti ti-mail", text: "monikasm2019@gmail.com" },
