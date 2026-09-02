@@ -6,18 +6,17 @@ function Contact() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [service, setService] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email || !message) {
-      alert("🕸 Please fill in all required fields (Name, Email, and Message)!");
+      alert("Please fill in all required fields (Name, Email, and Message).");
       return;
     }
-    const subject = `Project Inquiry: ${service || 'General Inquiry'}`;
-    const body = `Hi Spidey Girl,\n\nMy name is ${name}. I would like to inquire about your ${service || 'freelance'} services.\n\nMessage:\n${message}\n\nYou can reach me at: ${email}`;
-    window.location.href = `mailto:hey@spideygirl.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const subject = `Software Developer Inquiry from ${name}`;
+    const body = `Hi Monika,\n\nMy name is ${name}.\n\nMessage:\n${message}\n\nYou can reach me back at: ${email}`;
+    window.location.href = `mailto:${contact.channels.find(c => c.platform === 'Email')?.handle || 'monikasm2019@gmail.com'}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   return (
@@ -29,7 +28,7 @@ function Contact() {
 
         <div className="contact-grid reveal">
           <div>
-            <p style={{ fontSize: '14px', color: 'var(--text2)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
+            <p style={{ fontSize: '15px', color: 'var(--text2)', lineHeight: 1.8, marginBottom: '1.5rem' }}>
               {contact.text}
             </p>
 
@@ -53,7 +52,7 @@ function Contact() {
               <input
                 type="text"
                 className="form-input"
-                placeholder="What do I call you?"
+                placeholder="What's your name?"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -75,7 +74,7 @@ function Contact() {
               <label className="form-label">Message</label>
               <textarea
                 className="form-textarea"
-                placeholder="Tell me about your project..."
+                placeholder="Let's talk about full-stack engineering, projects, or job opportunities..."
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
