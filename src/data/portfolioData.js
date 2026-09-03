@@ -118,7 +118,7 @@ export const portfolioData = {
           "Delivered backend RESTful APIs, database schema migrations, and business logic using Django and DRF.",
           "Contributed to the Annual Rewards & Recognition platform featuring employee nomination workflows, award eligibility rules, admin approvals, bulk Excel data ingestion, and automated nomination certificate PDF generation.",
           "Designed responsive, accessible frontend interfaces and interactive dashboards using React, HTML5, CSS3, and Bootstrap.",
-          "Collaborated closely with QA engineers, UI/UX designers, and project stakeholders to ship weekly sprint deliverables on time."
+          "Implemented secure RESTful endpoints, optimized database query performance, and managed Git version control for reliable feature releases."
         ],
         techStack: [
           "Python",
