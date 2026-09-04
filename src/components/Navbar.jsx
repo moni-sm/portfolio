@@ -10,6 +10,16 @@ function Navbar() {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#services">Education</a></li>
+        <li>
+          <a
+            href="/Monika_SM_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-resume-link"
+          >
+            <i className="ti ti-file-text"></i> Resume
+          </a>
+        </li>
         <li><a href="#contact" className="nav-cta">Let's Talk</a></li>
       </ul>
     </nav>

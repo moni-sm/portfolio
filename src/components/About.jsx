@@ -36,6 +36,16 @@ function About() {
                 </div>
               ))}
             </div>
+            <div className="about-resume-action" style={{ marginTop: '1.75rem' }}>
+              <a
+                href="/Monika_SM_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                <i className="ti ti-download"></i> Download Full Resume (PDF)
+              </a>
+            </div>
           </div>
 
           <div className="values-grid">

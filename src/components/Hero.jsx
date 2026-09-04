@@ -38,6 +38,9 @@ function Hero() {
           </div>
           <div className="hero-btns">
             <a href="#projects" className="btn-primary"><i className="ti ti-eye"></i> View Work</a>
+            <a href="/Monika_SM_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-resume">
+              <i className="ti ti-file-text"></i> Resume
+            </a>
             <a href="#contact" className="btn-outline"><i className="ti ti-message"></i> Let's Talk</a>
           </div>
         </div>
