@@ -18,7 +18,7 @@ export const portfolioData = {
     eyebrow: "⚡ Full-Stack Developer & Software Engineer",
     firstName: "MONIKA",
     lastName: "S M",
-    subtitle: "Full-Stack Software Developer passionate about engineering robust web applications, scalable backend APIs, AI-powered tools, and high-performance distributed systems. 2× Spotlight Award Winner at Conceptia.",
+    subtitle: "Full-Stack Software Developer at Conceptia Software Technologies, promoted twice within 11 months (Trainee → Associate Software Engineer → Junior Software Developer) and a 2× Spotlight Award winner.",
     tags: [
       "Full-Stack Dev",
       "Python / Django",
@@ -38,58 +38,59 @@ export const portfolioData = {
   about: {
     label: "About Me",
     title: "WHO AM I?",
-    subtitle: "A high-performing Full-Stack Developer with rapid progression from Trainee to Associate to Junior Software Developer.",
+    subtitle: "Promoted twice within 11 months at Conceptia Software Technologies & 2× Spotlight Award Winner.",
     quote: '"',
-    bio: `Hey! I'm **Monika S M** — a Software Developer based in Bengaluru, India. In my **${calculateExperienceText()}** at **Conceptia Software Technologies**, I joined as a Trainee Software Developer on **07/04/2025** for a 6-month program, but owing to exceptional performance and high commitment, I was converted to a permanent **Associate Software Engineer in just 3 months (July 2025)**, and subsequently promoted to **Junior Software Developer** in March. Along the way, I have been honored with **two Spotlight Awards** for outstanding performance and high-impact delivery.\n\nFrom architecting role-based enterprise portals and XML-to-PDF pipelines to engineering high-throughput payment orchestration engines (**SettleFlow**), multi-LLM streaming assistants (**SigmaGPT**), and AI developer hubs (**Team Compass**), I love solving complex technical problems and building scalable software.`,
+    bio: "Full-stack Software Developer at **Conceptia Software Technologies**, promoted twice within 11 months (**Trainee → Associate Software Engineer → Junior Software Developer**) and a **2× Spotlight Award winner** for delivery on business-critical systems.\n\nBuilds production features across **Python/Django** and **React/Node** ecosystems — role-based enterprise portals, an AI candidate-ranking platform, and an XML-to-PDF publishing pipeline — and ships AI-integrated projects (RAG assistants, multi-LLM chat, payment orchestration) spanning **Spring Boot, FastAPI, and AWS/Docker/Kubernetes**.",
     details: [
-      { icon: "ti ti-map-pin", text: "Banashankari, Bengaluru, India" },
+      { icon: "ti ti-map-pin", text: "Banashankari, Bengaluru, Karnataka, India, 560065" },
       { icon: "ti ti-mail", text: "monikasm2019@gmail.com" },
       { icon: "ti ti-phone", text: "(+91) 9880966185" },
       { icon: "ti ti-brand-github", text: "github.com/moni-sm" },
+      { icon: "ti ti-language", text: "English (Proficient - C1/C2)" },
       { icon: "ti ti-trophy", text: "2× Spotlight Award Winner" }
     ],
     values: [
       {
         icon: "ti ti-trophy",
-        title: "Recognized Excellence",
-        desc: "2× Spotlight Award Winner; converted from trainee to permanent engineer in July 2025 (just 3 months)."
+        title: "Recognized Delivery",
+        desc: "Promoted twice within 11 months and awarded 2× Spotlight Awards for outstanding delivery on business-critical systems."
       },
       {
         icon: "ti ti-code",
         title: "Clean Architecture",
-        desc: "Writing modular, maintainable, and type-safe code following best engineering principles."
+        desc: "Architecting modular, maintainable, and robust enterprise solutions across Python, Django, React, and Spring Boot."
       },
       {
         icon: "ti ti-cpu",
-        title: "AI & Innovation",
-        desc: "Integrating state-of-the-art LLMs, RAG pipelines, and automated intelligence into real-world software."
+        title: "AI Integrations",
+        desc: "Building production-grade AI applications including RAG assistants, multi-LLM routers (Groq/Gemini/Claude), and voice workflows."
       },
       {
         icon: "ti ti-bolt",
-        title: "High Performance",
-        desc: "Optimizing backend throughput, sub-second query latency, and responsive glassmorphic UI."
+        title: "End-to-End Execution",
+        desc: "From database modeling, RBAC security, and XML-to-PDF pipelines to automated CI/CD releases on AWS EC2 & Docker."
       }
     ]
   },
   experience: {
     label: "Experience",
     title: "WORK HISTORY",
-    subtitle: "My professional journey and rapid career progression at Conceptia Software Technologies.",
+    subtitle: "Professional journey at Conceptia Software Technologies (07/04/2025 – Present).",
     roles: [
       {
         company: "Conceptia Software Technologies",
         role: "Junior Software Developer",
-        period: "03/2026 – Present",
+        period: "Mar 2026 – Present",
         location: "Bengaluru, India",
-        badge: "CURRENT PROMOTED ROLE",
+        badge: "PROMOTED ROLE",
         award: "🏆 2× Spotlight Award Winner for Outstanding Performance",
         responsibilities: [
-          "Promoted to Junior Software Developer in March following sustained technical excellence, ownership of mission-critical systems, and exceptional project execution.",
-          "Lead full-stack module architecture and development using Python (Django), React, TypeScript, and relational SQL databases.",
-          "Architected and enhanced role-based authentication and authorization systems (RBAC) with multi-tiered permissions across Admin, Manager, and Employee tiers.",
-          "Engineered the core modules for the Interactive Electronic Technical Manual (IETM) platform — content hierarchies, version control, 3D viewer integration, and interactive procedures.",
-          "Built and optimized an automated XML-to-PDF generation pipeline with custom styling templates, embedded media, bookmarks, and fast indexing.",
-          "Conducted code reviews, mentored team members, resolved critical production bugs, and maintained automated CI/CD release pipelines."
+          "Promoted to Junior Software Developer after sustained delivery on mission-critical systems; awarded 2× Spotlight Award for outstanding performance.",
+          "Lead full-stack module architecture using Python (Django), Django REST Framework, React, TypeScript, and PostgreSQL/SQL.",
+          "Architected role-based authentication and authorization (RBAC) with multi-tiered permissions across Admin, Manager, and Employee roles.",
+          "Own core modules of the IETM (Interactive Electronic Technical Manual) platform: content hierarchy, version control, publishing/review workflows, 3D viewer integration, and interactive procedure pages.",
+          "Built and maintain the automated XML-to-PDF generation pipeline — custom templates, embedded media, bookmarks, and fast search indexing.",
+          "Run code reviews, mentor teammates, resolve production issues, and maintain CI/CD release pipelines (GitHub Actions)."
         ],
         techStack: [
           "Python",
@@ -99,30 +100,30 @@ export const portfolioData = {
           "TypeScript",
           "PostgreSQL",
           "SQL",
-          "XML",
-          "PDF Generation",
-          "Git",
-          "GitHub",
+          "XML-to-PDF",
+          "CI/CD",
+          "GitHub Actions",
           "REST APIs"
         ]
       },
       {
         company: "Conceptia Software Technologies",
         role: "Associate Software Engineer",
-        period: "07/2025 – 03/2026",
+        period: "Jul 2025 – Mar 2026",
         location: "Bengaluru, India",
         badge: "PERMANENT ROLE",
-        promotionNote: "⚡ Converted to permanent Associate Software Engineer in July 2025 (in just 3 months instead of 6) due to outstanding performance.",
+        promotionNote: "⚡ Converted to a permanent role after 3 months (of a 6-month traineeship) based on performance.",
         responsibilities: [
-          "Fast-tracked and absorbed into permanent role on July 2025 following exemplary performance, technical aptitude, and rapid feature turnaround.",
-          "Delivered backend RESTful APIs, database schema migrations, and business logic using Django and DRF.",
-          "Contributed to the Annual Rewards & Recognition platform featuring employee nomination workflows, award eligibility rules, admin approvals, bulk Excel data ingestion, and automated nomination certificate PDF generation.",
-          "Designed responsive, accessible frontend interfaces and interactive dashboards using React, HTML5, CSS3, and Bootstrap.",
-          "Implemented secure RESTful endpoints, optimized database query performance, and managed Git version control for reliable feature releases."
+          "Converted to a permanent role after 3 months (of a 6-month traineeship) based on performance.",
+          "Delivered backend REST APIs, schema migrations, and business logic in Django/DRF.",
+          "Built the Annual Rewards & Recognition platform: nomination workflows, award-eligibility rules, admin approvals, bulk Excel import, and automated certificate PDF generation.",
+          "Built responsive, accessible dashboards and UI with React, HTML5, CSS3, and Bootstrap.",
+          "Optimized database queries and managed Git-based release workflows."
         ],
         techStack: [
           "Python",
           "Django",
+          "Django REST Framework",
           "JavaScript",
           "React",
           "HTML5",
@@ -137,15 +138,14 @@ export const portfolioData = {
       {
         company: "Conceptia Software Technologies",
         role: "Trainee Software Developer",
-        period: "07/04/2025 – 07/2025 (3 Months)",
+        period: "Apr 2025 – Jul 2025",
         location: "Bengaluru, India",
         badge: "TRAINEESHIP",
-        promotionNote: "🚀 Joined on 07/04/2025 for a 6-month traineeship — converted to permanent role in July 2025 (just 3 months) based on high merit.",
+        promotionNote: "🚀 Completed an intensive full-stack traineeship, converted to a permanent role within 3 months on merit.",
         responsibilities: [
-          "Joined on 07/04/2025 for an intensive full-stack development traineeship originally scheduled for 6 months.",
-          "Demonstrated rapid ramp-up and delivered high-quality work, earning immediate permanent conversion on July 2025 within just 3 months.",
-          "Mastered enterprise software fundamentals: Python/Django backend architecture, MVC patterns, REST APIs, SQL databases, and modern JavaScript.",
-          "Developed hands-on web modules, implemented secure CRUD endpoints, and adhered to clean code and documentation standards."
+          "Completed an intensive full-stack traineeship, converted to a permanent role within 3 months on merit.",
+          "Learned enterprise fundamentals: Python/Django architecture, MVC patterns, REST APIs, SQL, and modern JavaScript.",
+          "Built hands-on CRUD web modules following clean-code and documentation standards."
         ],
         techStack: [
           "Python",
@@ -262,8 +262,8 @@ export const portfolioData = {
         emoji: "💳",
         category: "Fintech & Backend",
         label: "Fintech & Distributed Systems",
-        name: "SettleFlow — Payment Orchestration Engine",
-        desc: "Enterprise-grade Payment Orchestration & Reconciliation platform designed for high-volume merchants. Features real-time Resilience4j Circuit Breakers, dynamic multi-PSP failover routing, automated financial reconciliation audit logs, and zero-downtime transaction processing.",
+        name: "SettleFlow — Payment Orchestration & Reconciliation Engine",
+        desc: "Enterprise-style payment platform with real-time circuit breakers, multi-PSP failover routing, and automated reconciliation audit logs.",
         stack: ["Java 17", "Spring Boot 3.3", "Next.js 14", "PostgreSQL", "MongoDB", "Docker", "Kubernetes", "CI/CD"],
         metricLabel: "Reliability & Uptime:",
         metricVal: "Zero-downtime failover & 99.9% uptime",
@@ -275,8 +275,8 @@ export const portfolioData = {
         emoji: "🧭",
         category: "Full-Stack",
         label: "Internal Portal & AI",
-        name: "Team Compass — Dev Portal & AI Assistant",
-        desc: "Internal developer portal and team onboarding hub featuring an interactive searchable employee directory, project ownership matrix, centralized markdown documentation, and an AI-powered Claude 3.5 Sonnet RAG knowledge assistant.",
+        name: "Team Compass — Dev Portal & AI Knowledge Assistant",
+        desc: "Internal onboarding hub with a searchable directory, project ownership matrix, centralized markdown documentation, and a Claude 3.5 Sonnet RAG assistant.",
         stack: ["Django 5.0", "React 19", "TypeScript", "Tailwind CSS v4", "Claude 3.5 RAG", "PostgreSQL", "Vite"],
         metricLabel: "Productivity:",
         metricVal: "Accelerates team discovery & onboarding",
@@ -288,9 +288,9 @@ export const portfolioData = {
         emoji: "⚡",
         category: "AI & LLMs",
         label: "AI & Cloud DevOps",
-        name: "SigmaGPT — Multi-Model AI Assistant",
-        desc: "Production-ready AI chat platform with real-time streaming completions, multi-LLM router (Llama 3.3 70B, Qwen 2.5, Gemini 1.5, GPT-4o-mini), Web Speech API voice dock, JWT authentication, and automated CI/CD deployment to AWS EC2 with Nginx & SSL.",
-        stack: ["React 19", "Node.js", "Express", "MongoDB Atlas", "Groq Cloud API", "AWS EC2", "GitHub Actions CI/CD"],
+        name: "SigmaGPT — Multi-Model AI Chat Assistant",
+        desc: "Production chat app with real-time streaming and a multi-LLM router (Llama 3.3 70B, Qwen 2.5, Gemini 1.5, GPT-4o-mini via Groq). Features Web Speech API voice dock, JWT auth, and automated CI/CD to AWS EC2.",
+        stack: ["React 19", "Node.js", "Express", "MongoDB Atlas", "AWS EC2", "GitHub Actions CI/CD"],
         metricLabel: "Live Streaming & CD:",
         metricVal: "Sub-second LLM streaming on AWS EC2",
         repoUrl: "https://github.com/moni-sm/sigma-gptt",
@@ -302,8 +302,8 @@ export const portfolioData = {
         category: "AI & LLMs",
         label: "Voice AI & Productivity",
         name: "Voice-to-Task — AI Voice Assistant",
-        desc: "Voice-driven task management application that records speech, transcribes audio, structures actionable tasks using Google Gemini AI, and generates clean downloadable summary PDF reports.",
-        stack: ["FastAPI (Python)", "Google Gemini AI", "React (Vite)", "Tailwind CSS", "FPDF2", "REST API"],
+        desc: "Records and transcribes speech, structures it into tasks with Google Gemini AI, and exports a formatted PDF summary.",
+        stack: ["FastAPI (Python)", "Google Gemini AI", "React (Vite)", "Tailwind CSS", "FPDF2"],
         metricLabel: "Efficiency:",
         metricVal: "Instant voice-to-structured PDF export",
         repoUrl: "https://github.com/moni-sm/Voice-to-Task",
@@ -320,30 +320,31 @@ export const portfolioData = {
       {
         icon: "ti ti-briefcase",
         name: "Conceptia Software Technologies",
-        desc: "Junior Software Developer — Fast-tracked from Trainee (07/04/2025) to permanent Associate in July 2025 (just 3 months), and promoted to Junior Developer in March. 2× Spotlight Award winner.",
-        price: "04/2025 - Present",
+        desc: "Junior Software Developer — Promoted twice within 11 months (Trainee → Associate → Junior Developer). 2× Spotlight Award winner for delivery on business-critical systems.",
+        price: "07/04/2025 - Present",
         priceSuffix: "",
         featured: true,
         badge: "2× SPOTLIGHT AWARDEE",
         includes: [
-          "Permanent Conversion in July 2025 (3 Months)",
-          "Promoted to Junior Software Developer",
+          "Promoted twice within 11 months on merit",
           "2× Spotlight Award Winner for High Performance",
-          "Django & React Full-Stack Architecture"
+          "Python/Django & React Full-Stack Architecture",
+          "Role-Based Access Control (RBAC) & XML-to-PDF"
         ]
       },
       {
         icon: "ti ti-school",
         name: "Maharani Cluster University",
-        desc: "Master of Computer Applications (MCA) — Comprehensive graduate studies in Data Structures, Database Systems, Web Engineering, and Software Architecture.",
-        price: "2023 - 2024",
+        desc: "Master of Computer Applications (MCA) — Comprehensive graduate curriculum in Data Structures, Algorithms, DBMS, Software Engineering, Web Development, Networks, and Cloud Computing.",
+        price: "20/02/2023 – 24/02/2024",
         priceSuffix: "",
         featured: false,
         includes: [
-          "Advanced Software Engineering",
-          "Full-Stack Web Development",
-          "Relational Database Management (RDBMS)",
-          "Algorithms & System Design"
+          "Level in EQF: EQF Level 7 Equivalent",
+          "Data Structures & Algorithms",
+          "Database Management Systems (DBMS)",
+          "Software Engineering & Project Management",
+          "Application & Full-Stack Web Development"
         ]
       }
     ]
@@ -351,20 +352,20 @@ export const portfolioData = {
   testimonials: {
     label: "Interests & Strengths",
     title: "BEYOND THE CODE",
-    subtitle: "Personal passions and core habits that power my analytical mindset.",
+    subtitle: "Personal passions and core habits that power my continuous growth.",
     list: [
       {
         stars: "📖",
-        text: "Diving into technical books and engineering literature that challenge my thinking, expand my problem-solving repertoire, and cultivate continuous learning.",
+        text: "Reading is one of my core hobbies. I enjoy diving into books that challenge my thinking, broaden my knowledge, and offer new insights into the world. It keeps me intellectually curious and constantly growing.",
         avatarInitials: "RB",
-        name: "Technical Reading",
+        name: "Reading Books",
         role: "Continuous Learning"
       },
       {
         stars: "🏔️",
-        text: "Exploring high-altitude outdoor trails and trekking summits, building grit, endurance, sharp focus, and mental resilience under pressure.",
+        text: "Love exploring outdoor trails and mountains, which keeps me physically fit, resilient, and connected with nature.",
         avatarInitials: "TR",
-        name: "Trekking & Outdoors",
+        name: "Trekking",
         role: "Resilience & Focus"
       },
       {
@@ -408,9 +409,9 @@ export const portfolioData = {
       },
       {
         platform: "Location",
-        handle: "Bengaluru, Karnataka, India",
+        handle: "Banashankari, Bengaluru, Karnataka, India, 560065",
         icon: "ti ti-map-pin",
-        url: "https://maps.google.com/?q=Banashankari,+Bengaluru,+India"
+        url: "https://maps.google.com/?q=Banashankari,+Bengaluru,+Karnataka,+560065"
       }
     ]
   }
