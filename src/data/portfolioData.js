@@ -42,9 +42,9 @@ export const portfolioData = {
     quote: '"',
     bio: "Full-stack Software Developer at **Conceptia Software Technologies**, promoted twice within 11 months (**Trainee → Associate Software Engineer → Junior Software Developer**) and a **2× Spotlight Award winner** for delivery on business-critical systems.\n\nBuilds production features across **Python/Django** and **React/Node** ecosystems — role-based enterprise portals, an AI candidate-ranking platform, and an XML-to-PDF publishing pipeline — and ships AI-integrated projects (RAG assistants, multi-LLM chat, payment orchestration) spanning **Spring Boot, FastAPI, and AWS/Docker/Kubernetes**.",
     details: [
-      { icon: "ti ti-map-pin", text: "Banashankari, Bengaluru, Karnataka, India, 560065" },
+      { icon: "ti ti-map-pin", text: "Dattatreya Nagar, Banashankari, Bengaluru, Karnataka, India, 560085" },
       { icon: "ti ti-mail", text: "monikasm2019@gmail.com" },
-      { icon: "ti ti-phone", text: "(+91) 9880966185" },
+      { icon: "ti ti-phone", text: "(+91) 09880966185" },
       { icon: "ti ti-brand-github", text: "github.com/moni-sm" },
       { icon: "ti ti-language", text: "English (Proficient - C1/C2)" },
       { icon: "ti ti-trophy", text: "2× Spotlight Award Winner" }
@@ -409,9 +409,9 @@ export const portfolioData = {
       },
       {
         platform: "Location",
-        handle: "Banashankari, Bengaluru, Karnataka, India, 560065",
+        handle: "Dattatreya Nagar, Banashankari, Bengaluru, Karnataka, 560085",
         icon: "ti ti-map-pin",
-        url: "https://maps.google.com/?q=Banashankari,+Bengaluru,+Karnataka,+560065"
+        url: "https://maps.google.com/?q=Dattatreya+Nagar,+Banashankari,+Bengaluru,+Karnataka,+560085"
       }
     ]
   }
