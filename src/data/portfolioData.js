@@ -268,7 +268,7 @@ export const portfolioData = {
         metricLabel: "Reliability & Uptime:",
         metricVal: "Zero-downtime failover & 99.9% uptime",
         repoUrl: "https://github.com/moni-sm/settleflow",
-        liveUrl: "https://prefers-ringtone-cet-focus.trycloudflare.com/",
+        liveUrl: "https://settle-flow.duckdns.org/",
         featured: true
       },
       {
