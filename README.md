@@ -1,8 +1,36 @@
-# React + Vite
+# Monika S M — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio of a full-stack developer based in Bengaluru, India. Open to relocation to Malta.
 
-Currently, two official plugins are available:
+**Live:** https://monika-sm.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Portfolio screenshot](./docs/screenshot.png)
+
+## Stack
+
+React · Vite · JavaScript · CSS · Deployed on Vercel
+
+## Sections
+
+Add the real list here, for example: Hero, About, Skills, Projects, Experience, Contact.
+
+## Run locally
+
+```bash
+git clone https://github.com/moni-sm/portfolio.git
+cd portfolio
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Contact
+
+- LinkedIn: https://www.linkedin.com/in/monika--sm/
+- GitHub: https://github.com/moni-sm
