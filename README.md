@@ -4,7 +4,7 @@ Personal portfolio of a full-stack developer based in Bengaluru, India. Open to 
 
 **Live:** https://monika-sm.vercel.app/
 
-![Portfolio screenshot](./docs/screenshot.png)
+
 
 ## Stack
 
